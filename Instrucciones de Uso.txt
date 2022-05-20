@@ -1,0 +1,21 @@
+Instrucciones para usar el programa
+
+1) En el excel con los datos de las encuestas de los docentes tiene que haber 2 hojas. "Hoja1" donde están los datos en crudo
+de la encuesta, y "Automatismo Alejo" donde hay un resumen de las respuestas de la encuesta.
+En esta segunda hoja tenemos que poner en la fila 2 el instituto ("ITI", "IEDU", "IBIO", "ISC", "SA"),
+en la fila 3 el apellido y nombre, y en la fila 4 el período de la encuesta "Primer Cuatrimestre 20XX" "Segundo Cuatrimestre 20XX" etc...
+Y en el resto de filas tenemos que poner el dato analizado de cada pregunta de la encuesta.
+
+2) Luego guardamos el archivo de excel, lo descargamos y lo ponemos en la carpeta "Excel Profesores",
+ahi dentro ponemos el excel de todos los docentes a los cuales se le realiza la encuesta.
+
+3) Ejecutamos el programa y en la carpeta "PDF Profesores" aparecerán las encuestas hechas.
+
+4) El nombre del archivo PDF es: "Apellido, Nombre - Encuesta Primer Cuatrimestre 20XX"
+
+5) IMPORTANTE: En caso de haber algún error, que falte alguna de las 2 hojas mencionadas, o que te olvides de poner el
+nombre del instituto o de la persona en la hoja "Automatismo Alejo" el programa va a omitir a ese profesor,
+y al final nos dice por consola cuales son los excels que tuvieron problemas para que lo arreglemos y ejecutemos de nuevo.
+
+6) IMPORTANTE 2: Después de usar el programa conviene sacar los PDF de esa carpeta y
+borrarlos para no confundirlo, lo mismo con los excels y Plots.
